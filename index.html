@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Clima Dinâmico</title>
+</head>
+<body>
+    <input id="input-latitude" type="text" placeholder="Escreva a latitude">
+    <input id="input-longitude" type="text" placeholder="Escreva a longitude">
+    <button id="enviar-dados" onclick="enviarLocalizacao()">Enviar Localização</button>
+
+    <h1 id="cidade"></h1>
+    <h1 id="temperatura"></h1>
+    <h1 id="descricao-do-tempo"></h1>
+
+    <p id="demo"></p>
+
+    <script src="scripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
